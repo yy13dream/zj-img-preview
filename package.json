@@ -1,10 +1,14 @@
 {
   "name": "zj-img-preview",
-  "version": "0.1.0",
-  "private": true,
+  "description": "基于vue的图片预览组件，支持多张图片预览，图片切换，放大，缩小，旋转，下载",
+  "version": "0.1.1",
+  "private": false,
+  "main": "lib/index.umd.min.js",
+  "author": "hejiang <562783695@qq.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
