@@ -1,4 +1,5 @@
 # zj-img-preview
+基于vue2.0的图片预览组件
 
 ## Project setup
 ```
